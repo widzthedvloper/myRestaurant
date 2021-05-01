@@ -34,3 +34,20 @@
   font-size: 38px;
   padding: 0 5px;
 }
+
+.image {
+  background-size: cover;
+  height: 150px;
+}
+
+.im1 {
+  background-image: url('./image1.jpg');
+}
+
+.im2 {
+  background-image: url('./image2.jpg');
+}
+
+.im3 {
+  background-image: url('./image3.jpg');
+}

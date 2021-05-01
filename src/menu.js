@@ -2,11 +2,14 @@ const container = document.getElementById('content');
 
 // eslint-disable-next-line require-jsdoc
 function insertMenu() {
+  const contentDiv = document.createElement('div');
+  contentDiv.setAttribute('class', 'container text-white content-div');
+
   const littleContainer1 = document.createElement('div');
   littleContainer1.setAttribute('class', 'lc1');
 
   const divImage1 = document.createElement('div');
-  divImage1.setAttribute('class', 'im1');
+  divImage1.setAttribute('class', 'im1 image');
   
   const divText1 = document.createElement('div');
   divText1.setAttribute('class', 'dt1');
@@ -22,7 +25,7 @@ function insertMenu() {
   littleContainer2.setAttribute('class', 'lc2');
 
   const divImage2 = document.createElement('div');
-  divImage2.setAttribute('class', 'im2');
+  divImage2.setAttribute('class', 'im2 image');
   
   const divText2 = document.createElement('div');
   divText2.setAttribute('class', 'dt2');
@@ -38,7 +41,7 @@ function insertMenu() {
   littleContainer3.setAttribute('class', 'lc3');
 
   const divImage3 = document.createElement('div');
-  divImage3.setAttribute('class', 'im3');
+  divImage3.setAttribute('class', 'im3 image');
   
   const divText3 = document.createElement('div');
   divText3.setAttribute('class', 'dt3');
@@ -50,7 +53,11 @@ function insertMenu() {
   littleContainer3.appendChild(divImage3);
   littleContainer3.appendChild(divText3);
   
+  contentDiv.appendChild(littleContainer1);
+  contentDiv.appendChild(littleContainer2);
+  contentDiv.appendChild(littleContainer3);
 
+  container.appendChild(contentDiv);
 }
 
 export default insertMenu();
