@@ -30,4 +30,4 @@ function insertNavbar() {
   container.appendChild(navbar);
 }
 
-export {insertNavbar};
+export { insertNavbar };
