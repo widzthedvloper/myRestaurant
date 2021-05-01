@@ -15,6 +15,7 @@
 .content-div {
   margin-top: 25vh;
   background-color: hsla(0, 0%, 0%, 0.2);
+  padding: 20px;
 }
 
 .content-div .home-title {
@@ -23,4 +24,13 @@
 
 .content-div .home-paragraph {
   font-size: 48px;
+}
+
+.content-div button {
+  background-color: #ffa500;
+  border-style: unset;
+  height: 48px;
+  color: #fff;
+  font-size: 38px;
+  padding: 0 5px;
 }
