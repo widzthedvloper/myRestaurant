@@ -39,7 +39,8 @@ function insertForm() {
   myForm.appendChild(secondDiv);
   myForm.appendChild(button);
 
-  container.appendChild(myForm);
+  contentDiv.appendChild(myForm);
+  container.appendChild(contentDiv);
 }
 
 export default insertForm;
