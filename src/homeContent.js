@@ -5,11 +5,13 @@ function homeContent() {
   contentDiv.setAttribute('class', 'container text-white content-div');
 
   const title = document.createElement('h1');
+  title.setAttribute('class', 'home-title');
   const titleText = document.createTextNode('HUNGRY?');
   title.appendChild(titleText);
 
   const paragraph = document.createElement('p');
   const paragraphText = document.createTextNode('We have a large menu of delicious pizza to demolish any appetite.');
+  paragraph.setAttribute('class', 'home-paragraph');
   paragraph.appendChild(paragraphText);
 
   const orderButton = document.createElement('button');
