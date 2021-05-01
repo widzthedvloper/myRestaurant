@@ -22,8 +22,8 @@ function homeContent() {
   contentDiv.appendChild(title);
   contentDiv.appendChild(paragraph);
   contentDiv.appendChild(orderButton);
-
+  
   container.appendChild(contentDiv);
 }
 
-export default homeContent();
+export default homeContent;

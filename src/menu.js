@@ -57,7 +57,11 @@ function insertMenu() {
   contentDiv.appendChild(littleContainer2);
   contentDiv.appendChild(littleContainer3);
 
+  const littleContainer4 = document.createElement('div');
+  littleContainer4.setAttribute('class', 'lc4');
+  contentDiv.appendChild(littleContainer4);
+  
   container.appendChild(contentDiv);
 }
 
-export default insertMenu();
+export default insertMenu;

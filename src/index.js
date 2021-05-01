@@ -6,10 +6,16 @@ import './style.css';
 insertNavbar();
 homeContent();
 
+function removeContent() {
+  document.getElementById('content').innerHTML = '';
+}
+const homebutton = document.getElementById('home');
+homebutton.addEventListener('click', function() {
+  removeContent();
+  homeContent();
+});
 const menuButton = document.getElementById('menu');
-const content = document.getElementById('content');
-
-menuButton.addEventListener('click',() => {
-  content.removeChild(content.childNodes);
+menuButton.addEventListener('click', function() {
+  removeContent();
   insertMenu();
 });

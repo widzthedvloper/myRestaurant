@@ -1,4 +1,4 @@
-const container = document.getElementById('content');
+const container = document.getElementById('body');
 
 // eslint-disable-next-line require-jsdoc
 function insertNavbar() {
@@ -9,21 +9,18 @@ function insertNavbar() {
   const textLink1 = document.createTextNode('HOME');
   link1.setAttribute('class', 'nav-link text-light');
   link1.setAttribute('id', 'home');
-  link1.setAttribute('href', './index.html');
   link1.appendChild(textLink1);
 
   const link2 = document.createElement('a');
   const textLink2 = document.createTextNode('MENU');
   link2.setAttribute('class', 'nav-link text-light');
   link2.setAttribute('id', 'menu');
-  link2.setAttribute('href', './index.html');
   link2.appendChild(textLink2);
 
   const link3 = document.createElement('a');
   const textLink3 = document.createTextNode('CONTACT');
   link3.setAttribute('class', 'nav-link text-light');
   link3.setAttribute('id', 'contact');
-  link3.setAttribute('href', './index.html');
   link3.appendChild(textLink3);
 
   navbar.appendChild(link1);
@@ -33,4 +30,4 @@ function insertNavbar() {
   container.appendChild(navbar);
 }
 
-export default insertNavbar();
+export default insertNavbar;
