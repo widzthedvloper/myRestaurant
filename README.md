@@ -4,6 +4,8 @@
 
 > This project consists of a single-page layout design that aims to demonstrate the understanding of webpack as a tool to bundle assets and the concept of modularizing the code base into single-task functions.
 
+[Live Demo](https://widzthedvloper.github.io/myRestaurant/)
+
 ## Main Page
 
 ![](./screenshot1.png)
