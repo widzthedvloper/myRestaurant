@@ -11,3 +11,16 @@
 .nav-pills {
   background: orange;
 }
+
+.content-div {
+  margin-top: 25vh;
+  background-color: hsla(0, 0%, 0%, 0.2);
+}
+
+.content-div .home-title {
+  font-size: 128px;
+}
+
+.content-div .home-paragraph {
+  font-size: 48px;
+}
