@@ -1,9 +1,10 @@
 const container = document.getElementById('content');
 
+// eslint-disable-next-line require-jsdoc
 function insertNavbar() {
   const navbar = document.createElement('nav');
   navbar.setAttribute('class', 'nav nav-pills nav-justified');
-  
+
   const link1 = document.createElement('a');
   const textLink1 = document.createTextNode('HOME');
   link1.setAttribute('class', 'nav-link text-light');
@@ -27,7 +28,6 @@ function insertNavbar() {
   navbar.appendChild(link3);
 
   container.appendChild(navbar);
-
 }
 
-export{insertNavbar};
+export {insertNavbar};
