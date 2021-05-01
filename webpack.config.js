@@ -1,19 +1,21 @@
-import { resolve } from 'path';
+const path = require('path');
 
-export const entry = './src/index.js';
-export const output = {
-  filename: 'main.js',
-  path: resolve(__dirname, 'dist'),
-};
-export const module = {
-  rules: [
-    {
-      test: /\.css$/i,
-      use: ['style-loader', 'css-loader'],
-    },
-    {
-      test: /\.(png|svg|jpg|jpeg|gif)$/i,
-      type: 'asset/resource',
-    },
-  ],
+module.exports = {
+  entry: './src/index.js',
+  output: {
+    filename: 'main.js',
+    path: path.resolve(__dirname, 'dist'),
+  },
+  module: {
+    rules: [
+      {
+        test: /\.css$/i,
+        use: ['style-loader', 'css-loader'],
+      },
+      {
+        test: /\.(png|svg|jpg|jpeg|gif)$/i,
+        type: 'asset/resource',
+      },
+    ],
+  },
 };
