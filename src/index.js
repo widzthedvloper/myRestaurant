@@ -9,13 +9,15 @@ homeContent();
 function removeContent() {
   document.getElementById('content').innerHTML = '';
 }
+
 const homebutton = document.getElementById('home');
-homebutton.addEventListener('click', function() {
+homebutton.addEventListener('click', () => {
   removeContent();
   homeContent();
 });
+
 const menuButton = document.getElementById('menu');
-menuButton.addEventListener('click', function() {
+menuButton.addEventListener('click', () => {
   removeContent();
   insertMenu();
 });
