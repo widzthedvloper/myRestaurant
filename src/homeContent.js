@@ -2,7 +2,7 @@ const container = document.getElementById('content');
 
 function homeContent() {
   const contentDiv = document.createElement('div');
-  contentDiv.setAttribute('class', 'container my-3 mx-3 content-div');
+  contentDiv.setAttribute('class', 'container text-white content-div');
 
   const title = document.createElement('h1');
   const titleText = document.createTextNode('HUNGRY?');
@@ -14,7 +14,8 @@ function homeContent() {
 
   const orderButton = document.createElement('button');
   orderButton.setAttribute('class', 'order-button');
-  orderButton.value = 'ORDER NOW';
+  const buttonText = document.createTextNode('ORDER NOW');
+  orderButton.appendChild(buttonText);
 
   contentDiv.appendChild(title);
   contentDiv.appendChild(paragraph);
