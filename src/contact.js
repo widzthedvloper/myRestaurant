@@ -7,6 +7,7 @@ function insertForm() {
   const myForm = document.createElement('form');
 
   const firstDiv = document.createElement('div');
+  firstDiv.setAttribute('class', 'mb-3')
   const firstLabel = document.createElement('label');
   firstLabel.setAttribute('for', 'email');
   firstLabel.setAttribute('class','form-label');
@@ -19,6 +20,7 @@ function insertForm() {
   firstDiv.appendChild(firstInput);
 
   const secondDiv = document.createElement('div');
+  secondDiv.setAttribute('class', 'mb-3');
   const secondLabel = document.createElement('label');
   secondLabel.setAttribute('for', 'message');
   secondLabel.setAttribute('class','form-label');

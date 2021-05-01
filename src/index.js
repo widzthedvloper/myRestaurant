@@ -1,6 +1,7 @@
 import insertNavbar from './homePage';
 import homeContent from './homeContent';
 import insertMenu from './menu';
+import insertForm from './contact';
 import './style.css';
 
 insertNavbar();
@@ -20,4 +21,10 @@ const menuButton = document.getElementById('menu');
 menuButton.addEventListener('click', () => {
   removeContent();
   insertMenu();
+});
+
+const contactButton = document.getElementById('contact');
+contactButton.addEventListener('click', () => {
+  removeContent();
+  insertForm();
 });
