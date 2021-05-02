@@ -1,6 +1,6 @@
 const container = document.getElementById('content');
 
-function insertForm() {
+insertForm = () => {
   const contentDiv = document.createElement('div');
   contentDiv.setAttribute('class', 'container text-white content-div');
 
@@ -41,6 +41,6 @@ function insertForm() {
 
   contentDiv.appendChild(myForm);
   container.appendChild(contentDiv);
-}
+};
 
 export default insertForm;
