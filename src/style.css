@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+}
+
+#content {
+  padding-top: 25vh;
+  width: 100%;
+  height: 100vh;
+  background: url(./background.png) no-repeat;
+}
+
+.nav-pills {
+  background: orange;
+}
+
+.content-div {
+  background-color: hsla(0, 0%, 0%, 0.2);
+  padding: 20px;
+}
+
+.content-div .home-title {
+  font-size: 128px;
+}
+
+.content-div .home-paragraph {
+  font-size: 48px;
+}
+
+.content-div button {
+  background-color: #ffa500;
+  border-style: unset;
+  height: 48px;
+  color: #fff;
+  font-size: 38px;
+  padding: 0 5px;
+}
+
+.image {
+  background-size: cover;
+  height: 350px;
+}
+
+.im1 {
+  background-image: url('./image1.jpg');
+}
+
+.im2 {
+  background-image: url('./image2.jpg');
+}
+
+.im3 {
+  background-image: url('./image3.jpg');
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+.lc1,
+.lc2,
+.lc3 {
+  width: 25%;
+  float: left;
+  margin-right: 10%;
+}
+
+.lc1 {
+  margin-left: 2.5%;
+}
+
+.lc3 {
+  margin-right: 2.5%;
+}
+
+.lc4 {
+  clear: both;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+}
