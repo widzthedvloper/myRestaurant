@@ -1,6 +1,6 @@
 const container = document.getElementById('content');
 
-insertForm = () => {
+const insertForm = () => {
   const contentDiv = document.createElement('div');
   contentDiv.setAttribute('class', 'container text-white content-div');
 

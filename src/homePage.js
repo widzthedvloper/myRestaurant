@@ -1,7 +1,7 @@
 const container = document.getElementById('body');
 
 // eslint-disable-next-line require-jsdoc
-insertNavbar = () => {
+const insertNavbar = () => {
   const navbar = document.createElement('nav');
   navbar.setAttribute('class', 'nav nav-pills nav-justified');
 

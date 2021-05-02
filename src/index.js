@@ -7,7 +7,7 @@ import './style.css';
 insertNavbar();
 homeContent();
 
-removeContent = () => {
+const removeContent = () => {
   document.getElementById('content').innerHTML = '';
 };
 

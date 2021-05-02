@@ -1,6 +1,6 @@
 const container = document.getElementById('content');
 
-homeContent = () => {
+const homeContent = () => {
   const contentDiv = document.createElement('div');
   contentDiv.setAttribute('class', 'container text-white content-div');
 
