@@ -1,7 +1,7 @@
 const container = document.getElementById('body');
 
 // eslint-disable-next-line require-jsdoc
-function insertNavbar() {
+insertNavbar = () => {
   const navbar = document.createElement('nav');
   navbar.setAttribute('class', 'nav nav-pills nav-justified');
 
@@ -28,6 +28,6 @@ function insertNavbar() {
   navbar.appendChild(link3);
 
   container.appendChild(navbar);
-}
+};
 
 export default insertNavbar;
