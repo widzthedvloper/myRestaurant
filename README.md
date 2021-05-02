@@ -32,7 +32,7 @@
 - Clone the repo:--> git clone git@github.com:widzthedvloper/myRestaurant.git
 - cd myRestaurant
 - npm install
-- If you experience any issue with images or javasript try runnind `npm run build`
+- If you experience any issue with images or javasript try runnind `npm run dev`
 
 ## Authors
 
