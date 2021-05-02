@@ -1,6 +1,6 @@
 const container = document.getElementById('content');
 
-function homeContent() {
+homeContent = () => {
   const contentDiv = document.createElement('div');
   contentDiv.setAttribute('class', 'container text-white content-div');
 
@@ -24,6 +24,6 @@ function homeContent() {
   contentDiv.appendChild(orderButton);
 
   container.appendChild(contentDiv);
-}
+};
 
 export default homeContent;
