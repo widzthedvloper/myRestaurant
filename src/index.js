@@ -7,9 +7,9 @@ import './style.css';
 insertNavbar();
 homeContent();
 
-function removeContent() {
+removeContent = () => {
   document.getElementById('content').innerHTML = '';
-}
+};
 
 const homebutton = document.getElementById('home');
 homebutton.addEventListener('click', () => {
