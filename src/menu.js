@@ -1,7 +1,7 @@
 const container = document.getElementById('content');
 
 // eslint-disable-next-line require-jsdoc
-function insertMenu() {
+insertMenu = () => {
   const contentDiv = document.createElement('div');
   contentDiv.setAttribute('class', 'container text-white content-div');
 
