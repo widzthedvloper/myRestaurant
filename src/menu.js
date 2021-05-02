@@ -62,6 +62,6 @@ insertMenu = () => {
   contentDiv.appendChild(littleContainer4);
 
   container.appendChild(contentDiv);
-}
+};
 
 export default insertMenu;
